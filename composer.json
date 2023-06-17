@@ -1,0 +1,23 @@
+{
+    "name": "olegdemkiv/coinmarketcap-api-php-client",
+    "description": "Client library for CoinMarketCap APIs",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "OlegDemkiv\\CoinMarketCapClient\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.0",
+        "php-http/discovery": "^1.18",
+        "psr/http-client": "^1.0",
+        "psr/http-factory": "^1.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
