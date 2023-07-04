@@ -1,6 +1,6 @@
 {
     "name": "olegdemkiv/coinmarketcap-api-php-client",
-    "description": "Client library for CoinMarketCap APIs",
+    "description": "Client library for CoinMarketCap API",
     "type": "library",
     "license": "MIT",
     "autoload": {
